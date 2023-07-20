@@ -1,6 +1,9 @@
 # DLTA Capstone Proxy
 This is just a simple reverse proxy server for our ec2 instance that doesn't have a trusted ssl certificate to comfortably accept https request. The purpose of this was to provide a soultion to the "mixed content" error we were getting on the web app hosted on netlify.
 
+## Demo URL
+:point_right: https://dlta-capstone-proxy.vercel.app/
+
 ## Getting Started
 Create a .env file, then add the following:
 - TARGET_URL="YOUR_URL_TO_PROXY"
